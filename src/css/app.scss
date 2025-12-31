@@ -1,1 +1,64 @@
 // app global css in SCSS form
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.neo-btn {
+  background: white !important;
+  color: black !important;
+  border: 3px solid black !important;
+  box-shadow: 0 6px 0 black;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+  border-radius: 0 !important;
+  padding: 10px 24px;
+  transition: all 0.1s ease-in-out;
+  position: relative;
+  z-index: 10;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 0 black;
+  }
+
+  &:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 black;
+  }
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.body--light .glass-card {
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: black;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, 0.3);
+  }
+}
+
+.glass-header {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.body--light .glass-header {
+  background: rgba(0, 0, 0, 0.03);
+}
