@@ -9,14 +9,14 @@
         >
           <div class="hero-content">
             <div class="text-h4 text-md-h3 text-white text-weight-bolder q-mb-md ls-tight">
-              Excel. Evolve. <br /><span class="text-grey-5">Empower.</span>
+              Master Your Future.
             </div>
             <div
               class="text-subtitle1 text-grey-4 q-mb-xl text-weight-light"
               style="max-width: 600px; margin: 0 auto"
             >
-              The premium tuition experience for students who demand excellence. Personalized
-              mentorship in a sophisticated environment.
+              Join the island's most prestigious tuition academy. Where expert guidance meets proven
+              results.
             </div>
             <div class="q-gutter-md">
               <q-btn label="Begin Your Journey" no-caps class="neo-btn" />
@@ -34,30 +34,30 @@
         style="max-width: 1200px"
       >
         <div class="col-12 col-md-4">
-          <div class="text-h4 text-weight-bolder">5000+</div>
+          <div class="text-h4 text-weight-bolder">2,500+</div>
           <div
             class="text-uppercase text-caption letter-spacing-2"
             :class="$q.dark.isActive ? 'text-grey-5' : 'text-grey-8'"
           >
-            Students Enrolled
+            Active Students
           </div>
         </div>
         <div class="col-12 col-md-4">
-          <div class="text-h4 text-weight-bolder">98%</div>
+          <div class="text-h4 text-weight-bolder">100%</div>
           <div
             class="text-uppercase text-caption letter-spacing-2"
             :class="$q.dark.isActive ? 'text-grey-5' : 'text-grey-8'"
           >
-            Success Rate
+            A-Grade Target
           </div>
         </div>
         <div class="col-12 col-md-4">
-          <div class="text-h4 text-weight-bolder">50+</div>
+          <div class="text-h4 text-weight-bolder">15+</div>
           <div
             class="text-uppercase text-caption letter-spacing-2"
             :class="$q.dark.isActive ? 'text-grey-5' : 'text-grey-8'"
           >
-            Expert Tutors
+            Years of Excellence
           </div>
         </div>
       </div>
@@ -197,13 +197,13 @@ const features = [
   },
   {
     icon: 'meeting_room',
-    title: 'Premium Facilities',
+    title: 'State-of-the-art LMS',
     description:
-      'State-of-the-art learning environments designed to foster focus and collaboration.',
+      'A seamless digital learning experience with comprehensive resources and lecture recordings.',
   },
   {
     icon: 'analytics',
-    title: 'Precision Analytics',
+    title: 'Real-time Progress Tracking',
     description:
       'Data-driven insights into your performance to target areas for maximum improvement.',
   },

@@ -30,8 +30,10 @@
             no-caps
             label="Home"
             to="/"
-            class="text-caption hover-text-primary transition-colors"
-            :class="$q.dark.isActive ? 'text-grey-4' : 'text-grey-8'"
+            class="text-caption transition-colors"
+            :class="
+              $q.dark.isActive ? 'text-grey-4 hover-text-white' : 'text-grey-8 hover-text-primary'
+            "
           />
           <q-btn
             flat
@@ -39,8 +41,10 @@
             no-caps
             label="Distinction"
             href="#features"
-            class="text-caption hover-text-primary transition-colors"
-            :class="$q.dark.isActive ? 'text-grey-4' : 'text-grey-8'"
+            class="text-caption transition-colors"
+            :class="
+              $q.dark.isActive ? 'text-grey-4 hover-text-white' : 'text-grey-8 hover-text-primary'
+            "
           />
           <q-btn
             flat
@@ -48,8 +52,10 @@
             no-caps
             label="Success Stories"
             href="#testimonials"
-            class="text-caption hover-text-primary transition-colors"
-            :class="$q.dark.isActive ? 'text-grey-4' : 'text-grey-8'"
+            class="text-caption transition-colors"
+            :class="
+              $q.dark.isActive ? 'text-grey-4 hover-text-white' : 'text-grey-8 hover-text-primary'
+            "
           />
           <q-btn
             flat
@@ -57,8 +63,10 @@
             no-caps
             label="Contact"
             href="#contact"
-            class="text-caption hover-text-primary transition-colors"
-            :class="$q.dark.isActive ? 'text-grey-4' : 'text-grey-8'"
+            class="text-caption transition-colors"
+            :class="
+              $q.dark.isActive ? 'text-grey-4 hover-text-white' : 'text-grey-8 hover-text-primary'
+            "
           />
         </div>
 
@@ -211,5 +219,9 @@ function toggleTheme() {
 }
 .hover-text-primary:hover {
   color: var(--q-primary) !important;
+}
+
+.hover-text-white:hover {
+  color: white !important;
 }
 </style>
